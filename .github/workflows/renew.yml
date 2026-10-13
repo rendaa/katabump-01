@@ -49,7 +49,7 @@ jobs:
         sudo apt-get update
         sudo apt-get install -y xvfb
         npm install
-        npm install punycode --save
+        npm install uri-js@4.2.2
         npx playwright install-deps chrome
 
     - name: Run Renew Script
